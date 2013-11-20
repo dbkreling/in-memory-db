@@ -13,6 +13,7 @@ t_member * t_member_alloc(char * name, int value){
 }
 
 // declare function get that returns the member value
+
 int * get_member_value(char * name, t_member * list){
 	t_member * current;
 	int * ret = (int *) malloc (sizeof(int));
@@ -29,7 +30,6 @@ int * get_member_value(char * name, t_member * list){
 	return NULL;
 }
 
-// declare function that removes a member from the list
 int remove_member(char * name, t_member * list){
 	t_member * current = list; // this is the first member of the list
 	t_member * previous = NULL;

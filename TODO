@@ -1,0 +1,10 @@
+1) trocar printf de erros por "perror"
+
+2) Migrar funções para um arquivo novo funcoes.c;
+
+3) criar um arquivo header: database.h ... nele vão ter o nome das funçoes terminadas com ; Ex: int get_member(lalalala);
+	Daí no list_lib.c, inserir #include "list_lib.h" 
+
+	list_lib.c e .h tem que ter o mesmo nome... 
+
+4)
