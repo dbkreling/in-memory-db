@@ -7,4 +7,7 @@
 
 	list_lib.c e .h tem que ter o mesmo nome... 
 
-4)
+================================
+1) Criar função update e funçao list
+
+2) criar a função de prompt.c que lê e conversa com o usuário, com funcção error > msgs padrao p/ usuário/.
